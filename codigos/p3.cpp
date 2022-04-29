@@ -160,6 +160,7 @@ void gera_subseq(vector<string> seq, int start_point, int end_point, vector<vect
         gera_subseq(seq, start_point+1, end_point, matriz_subseq);
     }
 }
+// Referência: https://www.geeksforgeeks.org/generating-subarrays-using-recursion/
 
 
 // ----- Função que calcula o score do alinhamento simples entre duas sequências ----- //
