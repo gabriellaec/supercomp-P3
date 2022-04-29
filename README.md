@@ -4,6 +4,8 @@
 
 Exemplo de comando para a compilação (dentro da pasta codigos):
 ```bash
+g++ -Wall -O3 p3.cpp -o p3
+
 ./p3 < ../inputs/dna.seq > ../outputs/p3
 ```
 
